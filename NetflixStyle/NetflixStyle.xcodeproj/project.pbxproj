@@ -18,6 +18,8 @@
 		AFF20E6C2707090100AF507F /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF20E6B2707090100AF507F /* ContentCollectionViewCell.swift */; };
 		AFF20E6E27070AE500AF507F /* ContentCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF20E6D27070AE500AF507F /* ContentCollectionViewHeader.swift */; };
 		AFF20E70270732FA00AF507F /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF20E6F270732FA00AF507F /* ContentCollectionViewRankCell.swift */; };
+		AFF20E7227089F4200AF507F /* ContentCollectionViewMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF20E7127089F4200AF507F /* ContentCollectionViewMainCell.swift */; };
+		AFF20E742708A48500AF507F /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF20E732708A48500AF507F /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		AFF20E6B2707090100AF507F /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
 		AFF20E6D27070AE500AF507F /* ContentCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewHeader.swift; sourceTree = "<group>"; };
 		AFF20E6F270732FA00AF507F /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewRankCell.swift; sourceTree = "<group>"; };
+		AFF20E7127089F4200AF507F /* ContentCollectionViewMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewMainCell.swift; sourceTree = "<group>"; };
+		AFF20E732708A48500AF507F /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				AFF20E6B2707090100AF507F /* ContentCollectionViewCell.swift */,
 				AFF20E5C2706FDD000AF507F /* Info.plist */,
 				AFF20E622706FE4700AF507F /* HomeViewController.swift */,
+				AFF20E7127089F4200AF507F /* ContentCollectionViewMainCell.swift */,
+				AFF20E732708A48500AF507F /* UIButton.swift */,
 				AFF20E6F270732FA00AF507F /* ContentCollectionViewRankCell.swift */,
 				AFF20E6D27070AE500AF507F /* ContentCollectionViewHeader.swift */,
 			);
@@ -162,8 +168,10 @@
 				AFF20E512706FDCD00AF507F /* SceneDelegate.swift in Sources */,
 				AFF20E70270732FA00AF507F /* ContentCollectionViewRankCell.swift in Sources */,
 				AFF20E632706FE4700AF507F /* HomeViewController.swift in Sources */,
+				AFF20E7227089F4200AF507F /* ContentCollectionViewMainCell.swift in Sources */,
 				AFF20E6A2707014700AF507F /* Content.swift in Sources */,
 				AFF20E6C2707090100AF507F /* ContentCollectionViewCell.swift in Sources */,
+				AFF20E742708A48500AF507F /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
