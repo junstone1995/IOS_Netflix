@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF8173A327293F6A0043CA20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8173A227293F690043CA20 /* ContentView.swift */; };
+		AF8173A627294B3E0043CA20 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8173A527294B3E0043CA20 /* ContentDetailView.swift */; };
 		AFF20E4F2706FDCD00AF507F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF20E4E2706FDCD00AF507F /* AppDelegate.swift */; };
 		AFF20E512706FDCD00AF507F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF20E502706FDCD00AF507F /* SceneDelegate.swift */; };
 		AFF20E582706FDD000AF507F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF20E572706FDD000AF507F /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF8173A227293F690043CA20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF8173A527294B3E0043CA20 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		AFF20E4B2706FDCD00AF507F /* NetflixStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF20E4E2706FDCD00AF507F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFF20E502706FDCD00AF507F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF8173A4272940040043CA20 /* NetflixSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				AFF20E6B2707090100AF507F /* ContentCollectionViewCell.swift */,
+				AFF20E692707014700AF507F /* Content.swift */,
+				AFF20E622706FE4700AF507F /* HomeViewController.swift */,
+				AFF20E7127089F4200AF507F /* ContentCollectionViewMainCell.swift */,
+				AFF20E6F270732FA00AF507F /* ContentCollectionViewRankCell.swift */,
+				AFF20E6D27070AE500AF507F /* ContentCollectionViewHeader.swift */,
+				AFF20E732708A48500AF507F /* UIButton.swift */,
+			);
+			path = NetflixSampleApp;
+			sourceTree = "<group>";
+		};
 		AFF20E422706FDCD00AF507F = {
 			isa = PBXGroup;
 			children = (
@@ -70,19 +88,15 @@
 		AFF20E4D2706FDCD00AF507F /* NetflixStyle */ = {
 			isa = PBXGroup;
 			children = (
+				AF8173A4272940040043CA20 /* NetflixSampleApp */,
 				AFF20E4E2706FDCD00AF507F /* AppDelegate.swift */,
 				AFF20E502706FDCD00AF507F /* SceneDelegate.swift */,
 				AFF20E572706FDD000AF507F /* Assets.xcassets */,
 				AFF20E592706FDD000AF507F /* LaunchScreen.storyboard */,
 				AFF20E672707010500AF507F /* Content.plist */,
-				AFF20E692707014700AF507F /* Content.swift */,
-				AFF20E6B2707090100AF507F /* ContentCollectionViewCell.swift */,
+				AF8173A227293F690043CA20 /* ContentView.swift */,
 				AFF20E5C2706FDD000AF507F /* Info.plist */,
-				AFF20E622706FE4700AF507F /* HomeViewController.swift */,
-				AFF20E7127089F4200AF507F /* ContentCollectionViewMainCell.swift */,
-				AFF20E732708A48500AF507F /* UIButton.swift */,
-				AFF20E6F270732FA00AF507F /* ContentCollectionViewRankCell.swift */,
-				AFF20E6D27070AE500AF507F /* ContentCollectionViewHeader.swift */,
+				AF8173A527294B3E0043CA20 /* ContentDetailView.swift */,
 			);
 			path = NetflixStyle;
 			sourceTree = "<group>";
@@ -164,11 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF20E4F2706FDCD00AF507F /* AppDelegate.swift in Sources */,
+				AF8173A627294B3E0043CA20 /* ContentDetailView.swift in Sources */,
 				AFF20E6E27070AE500AF507F /* ContentCollectionViewHeader.swift in Sources */,
 				AFF20E512706FDCD00AF507F /* SceneDelegate.swift in Sources */,
 				AFF20E70270732FA00AF507F /* ContentCollectionViewRankCell.swift in Sources */,
 				AFF20E632706FE4700AF507F /* HomeViewController.swift in Sources */,
 				AFF20E7227089F4200AF507F /* ContentCollectionViewMainCell.swift in Sources */,
+				AF8173A327293F6A0043CA20 /* ContentView.swift in Sources */,
 				AFF20E6A2707014700AF507F /* Content.swift in Sources */,
 				AFF20E6C2707090100AF507F /* ContentCollectionViewCell.swift in Sources */,
 				AFF20E742708A48500AF507F /* UIButton.swift in Sources */,
